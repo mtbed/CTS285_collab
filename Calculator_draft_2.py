@@ -3,7 +3,7 @@ import random
 
 num_1 = random.randint(1,10)
 num_2 = random.randint(1,10)
-operator_num = random.randint(4,4)
+operator_num = random.randint(1,4)
 correct_remainder = 0
 user_remainder_ans = -1
 #correct_ans
