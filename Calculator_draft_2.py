@@ -55,7 +55,7 @@ while user_remainder_ans != correct_remainder and operator_num == 4:
     amt_wrong = amt_wrong + 1
     print("Whoops, try again.")
 
-    user_remainder_ans = float(input("Remainder: "))
+    user_remainder_ans = int(input("Remainder: "))
 if user_remainder_ans == correct_remainder:
         if amt_wrong == 0:
             print("NICE! FIRST TRY!")
